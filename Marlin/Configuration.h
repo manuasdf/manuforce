@@ -185,6 +185,19 @@
 //#define E6_DRIVER_TYPE A4988
 //#define E7_DRIVER_TYPE A4988
 
+#define TMC_HARDWARE_SERIAL
+#if ENABLED(TMC_HARDWARE_SERIAL)
+  #define X_HARDWARE_SERIAL  MSerial1
+  //#define X2_HARDWARE_SERIAL MSerial1
+  #define Y_HARDWARE_SERIAL  MSerial1
+  //#define Y2_HARDWARE_SERIAL MSerial1
+  #define Z_HARDWARE_SERIAL  MSerial1
+  //#define Z2_HARDWARE_SERIAL MSerial1
+  #define E0_HARDWARE_SERIAL MSerial1
+  //#define E1_HARDWARE_SERIAL MSerial1
+#endif
+
+
 /**
  * Additional Axis Settings
  *
