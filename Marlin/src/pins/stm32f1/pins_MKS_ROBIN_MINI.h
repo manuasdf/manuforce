@@ -176,7 +176,7 @@
   #define TFT_BUFFER_SIZE                  14400
   #define ILI9341_COLOR_RGB
   // YV for normal screen mounting
-  #define ILI9341_ORIENTATION  ILI9341_MADCTL_MY | ILI9341_MADCTL_MV
+  // #define ILI9341_ORIENTATION  ILI9341_MADCTL_MY | ILI9341_MADCTL_MV
   // XV for 180° rotated screen mounting
   //#define ILI9341_ORIENTATION  ILI9341_MADCTL_MX | ILI9341_MADCTL_MV
 #endif
